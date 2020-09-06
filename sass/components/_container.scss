@@ -1,27 +1,27 @@
 .container {
     // position: relative;
 
-    &::before {
-        content: "";
-        position: absolute;
-        background-image: linear-gradient(to top, $color-gradient-1, $color-gradient-2);
-        width: 40%;
-        left: -15.5rem;
-        top: 0;
-        height: 70rem;
-        border-radius: 0% 0% 42.5% 56%;
-        z-index: -1;
-    }
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     background-image: linear-gradient(to top, $color-gradient-1, $color-gradient-2);
+    //     width: 40%;
+    //     left: -15.5rem;
+    //     top: 0;
+    //     height: 70rem;
+    //     border-radius: 0% 0% 42.5% 56%;
+    //     z-index: -1;
+    // }
 
-    &::after {
-        content: "";
-        position: absolute;
-        background-color: #F9F4FA;
-        width: 32.5%;
-        right: -10%;
-        bottom: 0;
-        height: 83%;
-        border-radius: 48% 40% 0% 0%;
-        z-index: -1;
-    }
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     background-color: #F9F4FA;
+    //     width: 32.5%;
+    //     right: -10%;
+    //     bottom: 0;
+    //     height: 83%;
+    //     border-radius: 48% 40% 0% 0%;
+    //     z-index: -1;
+    // }
 }

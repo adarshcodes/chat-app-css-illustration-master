@@ -25,29 +25,4 @@ body .container {
   font-family: 'Rubik', sans-serif;
   z-index: -2;
 }
-
-.container::before {
-  content: "";
-  position: absolute;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e942ff), to(#8838ff));
-  background-image: linear-gradient(to top, #e942ff, #8838ff);
-  width: 40%;
-  left: -15.5rem;
-  top: 0;
-  height: 70rem;
-  border-radius: 0% 0% 42.5% 56%;
-  z-index: -1;
-}
-
-.container::after {
-  content: "";
-  position: absolute;
-  background-color: #F9F4FA;
-  width: 32.5%;
-  right: -10%;
-  bottom: 0;
-  height: 83%;
-  border-radius: 48% 40% 0% 0%;
-  z-index: -1;
-}
 /*# sourceMappingURL=main.css.map */
