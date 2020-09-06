@@ -1,0 +1,22 @@
+//#############################~COLOR VARIABLES~########################//
+
+// Primary Colors
+
+$color-primary-violet: hsl(276, 55%, 52%); // (chat on the left)
+$color-primary-violet-light: hsl(276, 100%, 81%); // (sub-heading at the top of the app UI)
+$color-primary-violet-dark-1: hsl(271, 15%, 43%); // (chat on the right)
+$color-primary-violet-dark-2: hsl(271, 36%, 24%); // (main heading)
+$color-primary-grey-light: hsl(206, 6%, 79%); // (placeholder text)
+$color-primary-grey-dark: hsl(270, 7%, 64%); // (paragraph)
+
+// Gradient Colors
+
+$color-gradient-1: hsl(293, 100%, 63%);
+$color-gradient-2: hsl(264, 100%, 61%);
+
+// Secondary Colors
+
+$color-secondary-white: hsl(0, 0%, 100%);
+$color-secondary-grey: hsl(270, 20%, 96%); // (app background)
+$color-secondary-violet: hsl(271, 36%, 24%); // (submit button background)
+$color-secondary-violet: hsl(289, 100%, 72%); // (radio button outline)
