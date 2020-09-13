@@ -44,6 +44,7 @@
         margin: 14.8rem 0 0 36.3rem;
         border-radius: 2.7rem;
         position: relative;
+        z-index: -2;
 
         &::before {
             content: "";
@@ -54,6 +55,7 @@
             left: .83rem;
             border-radius: 2rem;
             background-color: $color-secondary-grey;
+            z-index: -1;
         }
 
         &::after {
@@ -62,9 +64,20 @@
             height: 6%;
             width: 50%;
             top: 0;
-            left: 5.99rem;
+            left: 6rem;
             border-radius: 1.3rem;
             background-color: $color-secondary-white;
+            z-index: 1;
+        }
+
+        .app-header {
+            position: relative;
+            width: 92%;
+            left: .9rem;
+            top: 1.1rem;
+            height: 65px;
+            background-image: linear-gradient(to right, $color-gradient-2, $color-gradient-1);
+            border-radius: 2rem 2rem .5rem .5rem;
         }
     }
 }
